@@ -71,4 +71,4 @@ tk.Entry(window, textvariable=array).grid(row=2, column=1)
 tk.Label(window, text="Enter the target: ").grid(row=3)
 tk.Entry(window, textvariable=target_).grid(row=3, column=1)
 
-tk.Button(window, text="Confirm entry",command=visualbin).grid(row=4)
+tk.Button(window, text="Confirm entry",command=visualbin).grid(row=4).
