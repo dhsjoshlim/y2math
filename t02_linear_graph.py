@@ -43,7 +43,7 @@ if min_y >= 0:
     y_height = abs(max_y)
 else:
     y_height = abs(max_y) + abs(min_y)
-
+.
 SIZE = max(y_height, x_length)+1
 BUFFER = 1
 coords = [[" "*2 for i in range (SIZE+BUFFER)] for i in range (SIZE+BUFFER)]
